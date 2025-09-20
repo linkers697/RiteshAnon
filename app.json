@@ -1,7 +1,7 @@
 {
   "name": "ᴀɴᴏɴ — ᴍᴜsɪᴄ",
   "description": "ɪᴛ's ᴀ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ ʙᴏᴛ, ᴡʀɪᴛᴛᴇɴ ɪɴ ᴘʏᴛʜᴏɴ ᴡɪᴛʜ ᴘʏʀᴏɢʀᴀᴍ ᴀɴᴅ ᴘʏ-ᴛɢᴄᴀʟʟs.",
-  "logo": "https://files.catbox.moe/f4ui12.jpg",
+  "logo": "https://files.catbox.moe/d4z1dl.jpg",
   "keywords": [
     "Anon",
     "MusicBot",
@@ -30,7 +30,7 @@
     },
     "BASE_API_URL": {
       "description": "❖ ʏᴏᴜᴛᴜʙᴇ ᴀᴘɪ ᴜʀʟ, ɢᴇᴛ ғʀᴇᴇ ғʀᴏᴍ : https://t.me/KeyMakerRoBot",
-      "value": "https://xyz.spotifytech.shop",
+      "value": "https://api.thequickearn.xyz",
       "required": true
     },
     "BOT_TOKEN": {
