@@ -25,9 +25,6 @@ LOGGER_ID = validate_env_var("LOGGER_ID", cast_type=int)
 OWNER_ID = validate_env_var("OWNER_ID", cast_type=int)
 MONGO_DB_URI = getenv("MONGO_DB_URI")
 
-API_URL = getenv("API_URL", 'https://api.thequickearn.xyz') #youtube song url
-VIDEO_API_URL = getenv("VIDEO_API_URL", 'https://api.video.thequickearn.xyz')
-API_KEY = getenv("API_KEY", 'NxGBNexGenBots5b2d9a')
 
 DURATION_LIMIT_MIN = validate_env_var("DURATION_LIMIT", cast_type=int, default=300)
 
