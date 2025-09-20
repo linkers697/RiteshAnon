@@ -11,7 +11,6 @@ from youtubesearchpython.__future__ import VideosSearch
 from yt_dlp import YoutubeDL
 
 import config
-from AnonMusic import LOGGER
 from AnonMusic.utils.database import is_on_off
 from AnonMusic.utils.formatters import time_to_seconds
 
