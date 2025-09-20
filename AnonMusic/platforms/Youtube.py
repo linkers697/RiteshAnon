@@ -312,7 +312,7 @@ class YouTubeAPI:
         except Exception as e:
             print(f"Video API failed: {e}")
         
-        # Fallback to cookies
+  # Fallback to cookies
         cookie_file = cookie_txt_file()
         if not cookie_file:
             return 0, "No cookies found. Cannot download video."
