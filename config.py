@@ -25,14 +25,9 @@ LOGGER_ID = validate_env_var("LOGGER_ID", cast_type=int)
 OWNER_ID = validate_env_var("OWNER_ID", cast_type=int)
 MONGO_DB_URI = getenv("MONGO_DB_URI")
 
-# 🔐 Get your secret key from Scy — xD: @ScyxD | Get Free Key : @KeyMakerRoBot
-# 📦 Make sure to add all required variables in your .env file.
-BASE_API_URL = getenv("BASE_API_URL", "https://xyz.spotifytech.shop")
-BASE_API_KEY = getenv("BASE_API_KEY")
-
-# promotion website like : Api Docs etc etc..., Please Don't Change This
-WEBSITE = getenv("WEBSITE", "https://xyz.spotifytech.shop")
-COOKIES_URL = getenv("COOKIES_URL")
+API_URL = getenv("API_URL", 'https://api.thequickearn.xyz') #youtube song url
+VIDEO_API_URL = getenv("VIDEO_API_URL", 'https://api.video.thequickearn.xyz')
+API_KEY = getenv("API_KEY", 'NxGBNexGenBots5b2d9a')
 
 DURATION_LIMIT_MIN = validate_env_var("DURATION_LIMIT", cast_type=int, default=300)
 
